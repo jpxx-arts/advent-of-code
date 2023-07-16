@@ -34,7 +34,7 @@ def organize_inventories(lines):
 def most_calories(elves):
     return max(elves, key=lambda el: el['calories'])
 
-with open('./day 1/input', 'r') as input:
+with open('./day 1/input.in', 'r') as input:
     lines = input.readlines()
 
 lines_treated = retiring_n(lines)
